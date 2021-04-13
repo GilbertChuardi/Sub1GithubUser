@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sub1AplikasiGithubUSer</string>
+    <string name="username" />
+    <string name="name" />
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="repository">Repository : </string>
+    <string name="title_detail">User Info</string>
+    <string name="github_user_list">Github User List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
