@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    android:backgroundTint="@color/background_app"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/frame3"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toEndOf="@+id/img_item_avatar"
+        card_view:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_item_avatar"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center_vertical"
+        card_view:civ_border_color="@color/white"
+        card_view:civ_border_width="5dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:civ_circle_background_color="@color/background_app"/>
+
+    <TextView
+        android:id="@+id/tv_item_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:maxLines="1"
+        android:textColor="@color/text_light_gray"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        card_view:layout_constraintBottom_toBottomOf="@id/img_view"
+        card_view:layout_constraintEnd_toEndOf="@id/img_view"
+        card_view:layout_constraintStart_toStartOf="@id/img_view"
+        card_view:layout_constraintTop_toTopOf="@id/img_view"
+        tools:text="name" />
+
+    <TextView
+        android:id="@+id/tv_item_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="15sp"
+        card_view:layout_constraintBottom_toBottomOf="@id/img_view"
+        card_view:layout_constraintEnd_toEndOf="@id/img_view"
+        card_view:layout_constraintStart_toStartOf="@id/img_view"
+        card_view:layout_constraintTop_toTopOf="@id/img_view"
+        tools:text="kerja" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

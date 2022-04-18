@@ -1,2 +1,4 @@
+include ':consumerapp'
 include ':app'
 rootProject.name = "Sub1AplikasiGithubUSer"
+include ':consumerapp2'

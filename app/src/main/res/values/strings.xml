@@ -7,6 +7,29 @@
     <string name="repository">Repository : </string>
     <string name="title_detail">User Info</string>
     <string name="github_user_list">Github User List</string>
+    <string name="reminder_settings">Reminder</string>
+    <string name="daily_reminder_settings">Daily Reminder</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_favorite">Delete from Favorite List</string>
+    <string name="add_favorite">Add to Favorite List</string>
+    <string name="empty_favorite">Empty</string>
+    <string name="settings">Settings</string>
+    <string name="daily_message">Find new favorite user on Github</string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="set_time_settings">Set time</string>
+    <string name="alarm_time">(Not set yet)</string>
+    <string name="cancel_time_settings">cancel time</string>
+    <string name="enable_time_settings">enable time</string>
+    <string name="disable_time_settings">disable time</string>
+    <string name="image_content">image</string>
+    <string name="image_button">image button</string>
+    <string name="default_working">Not Working</string>
+    <string name="default_location">In Earth</string>
+    <string name="text_tutorial">Click search to find more user on github!</string>
+    <string name="text_error">No Data Found!\nTry another keyword</string>
+    <string name="text_no_favorite">You dont favorite anyone yet</string>
+    <string name="text_no_follower">This user has no follower</string>
+    <string name="text_no_following">This user not following anyone yet</string>
+
 </resources>
